@@ -1,25 +1,23 @@
 class Solution {
     public int myAtoi(String s) {
         if(s == null || s.trim().isEmpty()) return 0;
-
         s = s.trim();
 
         boolean negative = false;
-
         int startIndex = 0;
+        StringBuilder strB = new StringBuilder();
 
-        //check for sign
+        //check for sign, skip first char if so
         if(s.charAt(0) == '-' || s.charAt(0) == '+'){
             negative = (s.charAt(0) == '-') ? true : false;
             startIndex++;
         }
 
-        StringBuilder strB = new StringBuilder();
-
         for(int i = startIndex; i < s.length(); i++){
             char c = s.charAt(i);
-            //nondigit encountered
+            
             if(Character.isDigit(c)) strB.append(c);
+            //nondigit encountered
             else break;
         }
 
