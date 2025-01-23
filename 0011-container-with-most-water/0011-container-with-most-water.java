@@ -19,14 +19,10 @@ class Solution {
                 tempArea = height[rightPTR] * (rightPTR - leftPTR);
                 rightPTR--;
             }
-            //check which ptr's next is larger, and move it there, NOTE MAYBE PROB IF SAME
 
             //check if tempArea is greater than maxArea, and update if so
             if (tempArea > maxArea) maxArea = tempArea;
-
         }
-
         return maxArea;
-        
     }
 }
