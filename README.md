@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chrisCodes141/CodingChallenges/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/chrisCodes141/CodingChallenges/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/chrisCodes141/CodingChallenges/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/chrisCodes141/CodingChallenges/tree/master/0008-string-to-integer-atoi) |
 | [0038-count-and-say](https://github.com/chrisCodes141/CodingChallenges/tree/master/0038-count-and-say) |
@@ -37,9 +38,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/chrisCodes141/CodingChallenges/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/chrisCodes141/CodingChallenges/tree/master/0011-container-with-most-water) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/chrisCodes141/CodingChallenges/tree/master/0011-container-with-most-water) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/chrisCodes141/CodingChallenges/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
